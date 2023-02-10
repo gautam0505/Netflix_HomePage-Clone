@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.back-img{
+    background-image:url(./netflexhome.jpg);
+     width: 100%;
+     height: fit-content;
+     height: 45rem;
+     background-size: cover;
+     background-position: center; 
+    background-size: auto;
+}
+.grad{
+    width: 100%;
+    padding: 0rem 0rem 15rem 0rem;
+    background-image: linear-gradient(to top,
+    rgba(0,0,0,1),
+    rgba(0,0,0,0.3),
+   rgba(0,0,0,0));
+  
+}
+.inside-grad{
+    width: 100%;
+    padding: 0rem 0rem 15rem 0rem;
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0,0.9),
+    rgba(0,0,0,0.3),
+   rgba(0,0,0,0));
+
+   
+}
+.text{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-top: 10rem;
+    
+}
+.unlimited{
+   font-size: 60px;
+   font-weight: 600;
+}
+.text>h3{
+    font-size: 25px;
+}
+.navbar{
+    width: 100%;
+    height: 6rem;
+}
+.sign{
+    color: white;
+    background-color: red;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 6px;
+    position: relative;
+    right: 3rem;
+    bottom: 1rem;
+}
+.language{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    right: 4rem;
+    bottom: 1rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-color: white;
+    border-radius: 6px;
+}
+.lang-select{
+    background-color: gray;
+    color: white;
+}
+.logo{
+    width: 13rem;
+    height: 8rem;
+    position: relative;
+    bottom: 1.2rem;
+    left: 2.5rem;
+}
+.ready{
+    font-size:large;
+    font-weight: bold;
+}
+.place-email{
+    width: 35rem;
+    font-size: small;
+    padding: 1.2rem 1rem 1.2rem 1rem;
+    position: relative;
+    left: 0.6rem;
+}
+.get{
+    width: 13rem;
+    padding: 1 rem 1rem 1rem 1rem;
+    height: 4.1rem;
+    background-color: red;
+    font-size:x-large;
+    margin: 0px;
+    position: relative;
+    color: white;
+    top: 0.2rem;
+}
+.space{
+    height:0.5rem;
+    width: 100%;
+}
+.second{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: black;}
+
+.font-place{
+    position: relative;
+    top:10rem;
+    left: 20rem;
+    padding-right: 28rem;
+}
+
+.tv-img{
+    position: relative;
+    /* left: 40rem; */
+    /* bottom: 10.5rem; */
+    /* height: 0.080rem; } */}
+
+.thirdbox{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: black;}
+.thirdbox-font{
+    position: relative;
+    top:9rem;
+    left: 7rem;
+    padding-right: 15rem;
+}
+.mobile-img{
+    padding-bottom: 7rem;
+    position: relative;
+}
+.extra-padding{
+    padding: 2rem 0rem 0rem 0rem;
+}
+.forthbox{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: black;}
+.forthbox-font{
+    position: relative;
+    top:12rem;
+    left: 7rem;
+    padding-right: 10rem;
+}
+.last-box{
+    width: 100%;
+    /* height: 60rem; */
+    color: white;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
+.acord-size{
+    display: grid;
+    grid-template-columns: minmax(375px, 50%);}
+.Faq-header{
+    padding-top: 5rem;
+    padding-bottom: 3rem;}
+.lb-to-watch{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+}
+.space-accord-cells{
+    padding-bottom: 1rem;
+}
+.inside-color{
+    background-color: gray;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 40rem;
+    color: white;
+    background-color: black;
+}
+.footer-content{
+    height:15rem;
+    position: relative;
+    top: 5rem;
+    
+}
+
+.row>div>a{
+    text-decoration: none;
+    color:gray;
+   font-size: small;
+}
+.language-two{
+    background-color: transparent;
+    color:grey;
+    position: relative;
+    top: 2rem;
+    bottom: 1rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-color: grey;
+    border-radius: 6px;
+    right: 30rem;
+}
+.Netflix-ind{
+    position: relative;
+    right:30rem ;
+    top: 2rem;
+    color: gray;
+    font-size: smaller;
+
+}
+.questions{
+    position: relative;
+    right:25rem ;
+    /* top: 2rem; */
+    color: gray;
+}
+
+@media(max-width:600px){
+    .logo{
+        width: 8rem;
+        height: 5rem;
+        position: relative;
+        bottom: 1rem;
+        left: 1.5rem;}
+
+        .unlimited{
+            font-size: 40px;
+            font-weight: 600;
+         }
+         .text>h3{
+             font-size: 25px;
+         }
+         .text{font-size: small;}
+
+}
+@media(max-width:1350px){
+    .font-place{
+        position: relative;
+        top:7rem;
+        left: 5rem;
+        font-size: medium;
+        padding-right: 10rem;
+    }
+}
+@media(max-width:992px){
+    .second{display: grid;
+    grid-template-columns: minmax(0px, 992px);}
+    .thirdbox{display: grid;
+        grid-template-columns: minmax(0px, 992px);}
+    .forthbox{display: grid;
+        grid-template-columns: minmax(0px, 992px);}
+        
+    .tv-img{
+        position: relative;}
+        .font-place{
+            position: relative;
+            top:2rem;
+            left: 5rem;
+            font-size: medium;
+            padding-right: 10rem;}
+            .thirdbox-font{
+                position:relative;
+                font-size:small;}
+            .adjustment{
+                padding-bottom: 10rem;
+            }
+            .mobile-img{
+                padding-bottom:2rem;
+                position: relative;}
+                .forthbox-font{
+                    position: relative;
+                    top:12rem;
+                    left: 7rem;
+                    padding-bottom: 10rem;}
+                .questions{
+                    padding-left: 25rem;
+                }
+            .the-end{
+                text-align: center;
+                position: relative;
+                padding-left: 50rem;}}
+
+@media(max-width: 760px){
+    .the-end{
+        text-align: center;
+        position: relative;
+        padding-left: 45rem;
+    }
+    .place-email{
+        width: 25rem;
+        font-size: small;
+        padding: 1rem 0.8rem 1rem 0.8rem;
+        margin-right: 1rem;
+        position: relative;
+        left: 0.6rem;}}
+
